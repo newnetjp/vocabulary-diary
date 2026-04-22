@@ -3,131 +3,157 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>たんごにっき プライバシーポリシー</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>たんごにっき｜プライバシーポリシー</title>
 <style>
-  :root {
-    --brand: #4A67FF;
-    --text: #1F2330;
-    --sub: #5B6270;
-    --muted: #8892A6;
-    --bg: #F4F6FB;
-    --surface: #FFFFFF;
-    --border: #E2E6F0;
+  :root{
+    --brand:#4A67FF;
+    --brand-soft:#EEF1FF;
+    --text:#1F2330;
+    --sub:#5B6270;
+    --muted:#8892A6;
+    --bg:#F4F6FB;
+    --surface:#FFFFFF;
+    --border:#E2E6F0;
   }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    padding: 32px 16px 64px;
-    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    line-height: 1.8;
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;
+    color:var(--text);
+    background:var(--bg);
+    line-height:1.8;
+    -webkit-font-smoothing:antialiased;
   }
-  .container {
-    max-width: 760px;
-    margin: 0 auto;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 40px 32px;
+  .wrap{
+    max-width:720px;
+    margin:0 auto;
+    padding:32px 16px 64px;
   }
-  .brand-bar {
-    height: 6px;
-    background: var(--brand);
-    border-radius: 4px;
-    margin-bottom: 24px;
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:32px 24px;
   }
-  h1 {
-    font-size: 26px;
-    margin: 0 0 8px;
-    color: var(--brand);
-    font-weight: 800;
+  .bar{
+    height:6px;
+    background:var(--brand);
+    border-radius:3px;
+    margin-bottom:24px;
   }
-  .meta {
-    color: var(--muted);
-    font-size: 14px;
-    margin-bottom: 28px;
+  h1{
+    font-size:24px;
+    margin:0 0 6px;
+    color:var(--brand);
+    font-weight:800;
+    letter-spacing:.02em;
   }
-  h2 {
-    font-size: 18px;
-    margin: 32px 0 10px;
-    padding-left: 12px;
-    border-left: 4px solid var(--brand);
-    color: var(--text);
-    font-weight: 700;
+  .lead{
+    color:var(--muted);
+    font-size:13px;
+    margin:0 0 24px;
   }
-  p, li { font-size: 15px; color: var(--sub); }
-  ul { padding-left: 20px; }
-  a { color: var(--brand); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  .foot {
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid var(--border);
-    font-size: 13px;
-    color: var(--muted);
-    text-align: center;
+  h2{
+    font-size:17px;
+    margin:28px 0 10px;
+    padding-left:10px;
+    border-left:4px solid var(--brand);
+    font-weight:700;
+  }
+  p,li{font-size:15px;color:var(--sub);}
+  p{margin:8px 0;}
+  ul{padding-left:20px;margin:8px 0;}
+  li{margin:4px 0;}
+  .chip{
+    display:inline-block;
+    padding:4px 12px;
+    background:var(--brand-soft);
+    color:var(--brand);
+    font-size:12px;
+    font-weight:700;
+    border-radius:999px;
+    letter-spacing:.08em;
+    margin-bottom:12px;
+  }
+  a{color:var(--brand);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .foot{
+    margin-top:32px;
+    padding-top:16px;
+    border-top:1px solid var(--border);
+    font-size:12px;
+    color:var(--muted);
+    text-align:center;
+  }
+  @media (max-width:480px){
+    .card{padding:24px 18px;}
+    h1{font-size:21px;}
+    h2{font-size:16px;}
+    p,li{font-size:14px;}
   }
 </style>
 </head>
 <body>
-  <div class="container">
-    <div class="brand-bar"></div>
-    <h1>たんごにっき プライバシーポリシー</h1>
-    <p class="meta">最終更新日: 2026年4月23日</p>
+  <div class="wrap">
+    <div class="card">
+      <div class="bar"></div>
+      <span class="chip">PRIVACY POLICY</span>
+      <h1>たんごにっき プライバシーポリシー</h1>
+      <p class="lead">最終更新日：2026年4月23日</p>
 
-    <p>本プライバシーポリシー（以下「本ポリシー」）は、モバイルアプリケーション「たんごにっき」（以下「本アプリ」）における利用者情報の取扱いについて定めるものです。本アプリを利用することで、利用者は本ポリシーに同意したものとみなします。</p>
+      <p>本プライバシーポリシー（以下「本ポリシー」といいます）は、モバイルアプリケーション「たんごにっき」（以下「本アプリ」といいます）における利用者情報の取り扱いについて定めるものです。本アプリをご利用いただく場合、本ポリシーに同意いただいたものとみなします。</p>
 
-    <h2>1. 取得する情報</h2>
-    <p>本アプリは、以下の情報を利用者の端末内でのみ取得・保存します。</p>
-    <ul>
-      <li>利用者が入力した「1日1単語」の記録および日付</li>
-      <li>通知時刻など、アプリの動作に関する設定情報</li>
-    </ul>
-    <p>上記の情報はすべて端末のローカルストレージに保存され、開発者または第三者のサーバーへ送信されることはありません。</p>
+      <h2>1. 取得する情報</h2>
+      <p>本アプリは、以下の情報を利用者の端末内でのみ取得・保存します。</p>
+      <ul>
+        <li>利用者が入力した「1日1単語」の記録および日付</li>
+        <li>通知時刻など、本アプリの動作に関する設定情報</li>
+      </ul>
+      <p>これらの情報は端末のローカルストレージに保存されます。開発者または第三者が運営するサーバーへ自動的に送信されることはありません。</p>
 
-    <h2>2. 利用目的</h2>
-    <ul>
-      <li>日々の記録を端末内に保存し、閲覧・振り返りを可能にするため</li>
-      <li>利用者が設定した時刻にリマインド通知を行うため</li>
-      <li>利用者の任意操作により、記録を画像やCSVとして出力・共有するため</li>
-    </ul>
+      <h2>2. 利用目的</h2>
+      <ul>
+        <li>日々の記録を端末内に保存し、閲覧および振り返りを可能にするため</li>
+        <li>利用者が設定した時刻にリマインド通知を行うため</li>
+        <li>利用者の任意の操作により、記録を画像またはCSVとして出力・共有するため</li>
+      </ul>
 
-    <h2>3. 第三者提供</h2>
-    <p>本アプリは、利用者情報を第三者へ提供・販売・開示することはありません。ただし、法令に基づく開示請求があった場合はこの限りではありません。</p>
+      <h2>3. 第三者提供</h2>
+      <p>本アプリは、利用者情報を第三者へ提供、販売、または開示することはありません。ただし、法令に基づく開示請求があった場合はこの限りではありません。</p>
 
-    <h2>4. 外部サービスの利用</h2>
-    <p>本アプリは、利用者の操作に基づき以下の端末機能を利用します。これらは共有・保存の目的に限って使用され、内容が外部サーバーへ自動送信されることはありません。</p>
-    <ul>
-      <li>ローカル通知機能（リマインド通知）</li>
-      <li>写真ライブラリ（共有用画像の保存）</li>
-      <li>OS標準の共有機能（画像・CSVの共有）</li>
-    </ul>
+      <h2>4. 端末機能の利用</h2>
+      <p>本アプリは、利用者の操作に基づき以下の端末機能を利用します。いずれも共有または保存の目的に限って使用され、内容が外部サーバーへ自動送信されることはありません。</p>
+      <ul>
+        <li>ローカル通知機能（リマインド通知）</li>
+        <li>写真ライブラリ（共有用画像の保存）</li>
+        <li>OS標準の共有機能（画像・CSVの共有）</li>
+      </ul>
 
-    <h2>5. 権限の利用</h2>
-    <ul>
-      <li><strong>通知権限</strong>: 設定した時刻にリマインドを表示するために使用します。</li>
-      <li><strong>写真ライブラリへの追加権限</strong>: 利用者が共有用画像の保存を実行した際にのみ使用します。</li>
-    </ul>
+      <h2>5. 権限について</h2>
+      <ul>
+        <li><strong>通知権限</strong>：設定した時刻にリマインドを表示するために使用します。</li>
+        <li><strong>写真ライブラリへの追加権限</strong>：利用者が共有用画像の保存を実行した際にのみ使用します。</li>
+      </ul>
 
-    <h2>6. データの管理と削除</h2>
-    <p>本アプリで保存された記録は、端末内にのみ存在します。アプリをアンインストールすることで、保存されたすべてのデータは端末から削除されます。</p>
+      <h2>6. データの管理と削除</h2>
+      <p>本アプリで保存される記録は、端末内にのみ存在します。本アプリをアンインストールすることで、保存されているすべてのデータは端末から削除されます。</p>
 
-    <h2>7. 子どもの利用について</h2>
-    <p>本アプリは全年齢を対象としていますが、未成年者が利用する場合は、保護者の監督のもとでご利用ください。</p>
+      <h2>7. 未成年者の利用について</h2>
+      <p>本アプリは全年齢の方にご利用いただけますが、未成年者が利用する場合は、保護者の方の監督のもとでご利用ください。</p>
 
-    <h2>8. ポリシーの変更</h2>
-    <p>本ポリシーの内容は、必要に応じて予告なく変更されることがあります。変更後の内容は、本アプリまたは関連するウェブページに掲載された時点で効力を生じるものとします。</p>
+      <h2>8. 本ポリシーの変更</h2>
+      <p>本ポリシーの内容は、必要に応じて変更されることがあります。変更後の内容は、本アプリまたは関連するウェブページに掲載した時点から効力を生じるものとします。</p>
 
-    <h2>9. お問い合わせ</h2>
-    <p>本ポリシーに関するお問い合わせは、下記までご連絡ください。</p>
-    <ul>
-      <li>アプリ名: たんごにっき</li>
-      <li>連絡先: <a href="mailto:info@newnet.jp">info@newnet.jp</a></li>
-    </ul>
+      <h2>9. お問い合わせ</h2>
+      <p>本ポリシーに関するお問い合わせは、下記までご連絡ください。</p>
+      <ul>
+        <li>アプリ名：たんごにっき</li>
+        <li>連絡先：<a href="mailto:info@newnet.jp">info@newnet.jp</a></li>
+      </ul>
 
-    <div class="foot">© 2026 たんごにっき</div>
+      <div class="foot">© 2026 たんごにっき</div>
+    </div>
   </div>
 </body>
 </html>
